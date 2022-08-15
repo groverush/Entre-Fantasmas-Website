@@ -31,10 +31,17 @@ h3 {
   font-weight: 700;
   margin-bottom: 0;
 }
+p {
+  line-height: 1.5rem;
+}
 .composer,
 time {
   color: #e9c46a;
   font-weight: 700;
+}
+.review-text {
+  color: #5a189a;
+  font-weight: bold;
 }
 .accent-text {
   font-weight: 700;
@@ -46,6 +53,13 @@ time {
   font-size: 1rem;
 }
 
+.member {
+  color: #5a189a;
+  font-weight: bold;
+}
+.rol {
+  color: #e76f51;
+}
 /* layout */
 
 .header {
@@ -84,6 +98,10 @@ time {
   border-top: solid 1px #c4c4c4;
   border-bottom: solid 1px #c4c4c4;
   padding: 20px 0;
+}
+
+img {
+  width: 100%;
 }
 
 /* LINKS */
