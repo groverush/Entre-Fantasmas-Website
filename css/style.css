@@ -87,7 +87,7 @@ time {
 }
 .container {
   position: relative;
-  width: 520px;
+  max-width: 520px;
   margin: 0 auto;
   padding: 45px 0;
   z-index: 1;
@@ -145,8 +145,5 @@ a {
   .band-logo {
     width: 300px;
     object-fit: cover;
-  }
-  .container {
-    width: 300px;
   }
 }
