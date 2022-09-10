@@ -11,10 +11,7 @@ body {
   text-shadow: 0px 0px 1px black;
 }
 
-header {
-  font-family: "Bad Script", cursive;
-}
-header h2 {
+.header h2 {
   border: none;
   font-size: 2.7rem;
 }
@@ -88,6 +85,10 @@ time {
   background-size: cover;
   background-position: center;
   position: relative;
+  font-family: "Bad Script", cursive;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
 }
 .band-logo {
   max-width: 100%;
@@ -96,6 +97,7 @@ time {
 .inverse {
   color: whitesmoke;
   background-color: #2c234b;
+  box-shadow: 1px 1px 8px #000;
 }
 
 .header::after {
@@ -113,11 +115,8 @@ time {
   position: relative;
   max-width: 540px;
   margin: 0 auto;
-  padding: 2.4em 2em 3em;
+  padding: 2em;
   z-index: 1;
-}
-header .container {
-  padding: 0.2125em 0;
 }
 .members-img {
   width: 100%;
@@ -167,6 +166,7 @@ a {
   html {
     font-size: 1.2125rem;
   }
+
   .header {
     background-image: url("../images/background/background-larger.gif");
   }
