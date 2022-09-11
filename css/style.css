@@ -90,14 +90,15 @@ time {
   display: flex;
   align-items: center;
 }
+.container-logo {
+  z-index: 1;
+}
 .band-logo {
-  max-width: 100%;
   object-fit: cover;
 }
 .inverse {
   color: whitesmoke;
   background-color: #2c234b;
-  box-shadow: 1px 1px 8px #000;
 }
 
 .header::after {
@@ -112,14 +113,12 @@ time {
   z-index: 0;
 }
 .container {
-  position: relative;
   max-width: 540px;
   margin: 0 auto;
-  padding: 2em;
-  z-index: 1;
+  padding: 3em;
 }
-.members-img {
-  width: 100%;
+img {
+  max-width: 100%;
   object-fit: cover;
 }
 
@@ -151,7 +150,6 @@ a {
 }
 .inverse .btn {
   color: #5a189a;
-  text-shadow: 1px 1px 1px #000;
 }
 .inverse .btn:hover,
 .inverse .btn:active,
@@ -172,14 +170,27 @@ a {
   }
   .section-flex {
     display: flex;
-    border-bottom: 10px solid #252525;
-    border-top: 10px solid #252525;
   }
-  .music {
-    border-right: 10px solid #252525;
-    border-left: 10px solid #252525;
+  .section-flex .about-us,
+  .section-flex .music {
+    width: 50%;
+    min-height: 100vh;
+  }
+  .members-band {
+    color: whitesmoke;
+    background-color: #252525;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  .members-img {
+    height: 15em;
+    width: 100%;
+  }
+  .members-band .container {
+    max-width: 720px;
   }
   footer {
-    border-bottom: 10px solid #252525;
+    border-bottom: 20px solid #252525;
   }
 }
